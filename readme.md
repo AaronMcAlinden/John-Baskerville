@@ -8,3 +8,4 @@ John Baskerville Project
 + [Version 3] (https://AaronMcAlinden.github.io/John-Baskerville/version3.html)
 + [version 4] (https://AaronMcAlinden.github.io/John-Baskerville/version4.html)
 + [Version 5] (https://aaronmcalinden.github.io/John-Baskerville/Version5.html)
++ [Version 6] (https://aaronmcalinden.github.io/John-Baskerville/Version6.html)
