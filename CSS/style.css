@@ -13,15 +13,23 @@ body        {
         section 
             { padding: 2em 0 2em 0;
             }
-            /* TYPOGRAPHY */
+/*------------------ TYPOGRAPHY -------------------*/
 
-        h1, h2, h3 
+header h2 {
+            font-style: italic;
+            font-size: 1.8em;
+            margin: 1em 0 2em 0;
+            }
+       
+h1, h2, h3 
             {
             font-weight: normal; 
             color: #c06;
+            text-align: center
             }
             
-            h1 {font-size:  3.375em;}
+            h1 {font-size:  3.375em;
+                line-height:1.3}
             h2 {font-size:  2.25em;}
             h3 {font-size:  1.5em;}
 
@@ -30,3 +38,60 @@ body        {
             font-size: 1.25em;
             line-height: 1.8em;
             }
+
+blockquote {
+            padding: 2em 0;
+            font-size: 1.75em;
+            line-height: 1.5em;
+            margin: 0
+            }
+
+        cite
+            {
+            font-size: 1em;
+            }
+
+/*---------------------- Links ----------------------*/
+        a {
+            color: #c06;
+            text-decoration: none;
+            letter-spacing: 2px;     
+        }
+        
+        a:hover {
+            color: aqua;
+            border-bottom: 1px dotted;
+                }
+
+        .anchor { text-transform: uppercase;
+            font-size: .75em;}
+
+  .anchor hover {
+                color: aqua;
+                }
+
+/*------------------------ Nav -------------------------*/
+            
+nav {
+        
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    text-transform: uppercase;
+    
+    }
+
+nav ul {
+        text-align: center;
+        letter-spacing: 2px;
+    }
+
+nav ul li {
+            display: inline;
+            margin: 20px;
+            }
+/*---------------------- Footer -------------------------*/
+
+footer { 
+        line-height: 1.4em;
+        padding-bottom: 2em;
+        }
